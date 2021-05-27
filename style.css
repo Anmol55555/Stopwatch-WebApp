@@ -1,0 +1,52 @@
+
+.button-style {
+    font-size: 1.5rem;
+    background-color: black;
+    color: white;
+    font-family: 'DM Serif Text', serif;
+}
+
+.text {
+    font-size: 3.5rem;
+    display: inline;
+    /*font-family: 'DM Serif Text', serif;*/
+
+}
+
+
+.heading {
+    font-size: 5rem;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+
+body {
+    background: #202020;
+    color: white;
+}  
+
+button {
+    width: 5rem;
+    border: 0.5px solid white;
+    border-radius: 2rem;
+    background: #202020;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+
+
+
+@media only screen and (max-width: 375px) {
+  
+
+    .heading {
+        font-size: 3.5rem;
+    }
+    .text {
+        font-size: 3rem;
+    }
+    
+  }
