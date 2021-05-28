@@ -29,12 +29,33 @@ body {
 
 button {
     width: 5rem;
+    height: 2.5rem;
     border: 0.5px solid white;
     border-radius: 2rem;
     background: #202020;
     color: white;
     cursor: pointer;
     outline: none;
+}
+
+.button-pad {
+    display: inline;
+    padding: 0 1rem 0 0;
+}
+
+#start-id:hover {
+    background-color: rgb(81, 216, 63)   /*#39C16C   #20CC82*/;
+    border-color: black;
+}
+
+#stop-id:hover {
+    background-color: rgb(224, 42, 42)   /*#39C16C   #20CC82*/;
+    border-color: black;
+}
+
+#reset-id:hover {
+    background-color: rgb(62, 220, 231)   /*#39C16C   #20CC82*/;
+    border-color: black;
 }
 
 
@@ -48,5 +69,12 @@ button {
     .text {
         font-size: 3rem;
     }
-    
+    .button-style {
+        font-size: 1rem;
+    }
+    button {
+        width: 3.5rem;
+        height: 1.7rem;
+    }
+
   }

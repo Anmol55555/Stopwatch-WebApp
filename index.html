@@ -18,8 +18,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@1&display=swap" rel="stylesheet">
 
-  <!--Favicon-->
-  <link rel="icon" href="images/favicon.ico">
+
 
   <!--All CSS Content-->
   <link rel="stylesheet" type="text/css" href="style.css" />
@@ -27,39 +26,40 @@
 
 
   <title>StopWatch</title>
+  <!--Favicon   Images/favicon.ico-->
+  <link rel="shortcut icon" type="image/jpg" href="https://img.icons8.com/officel/160/000000/timer.png" />
 </head>
 
 <body>
 
-
+  <br>
 
   <div class="heading">Stopwatch</div>
 
-  <div > 
-  <div class="container" style=" text-align: center;">
-    
-    <br><br><br>
-    <div class="col-12">
-      <div class="text" id="hour">00</div>
-      <div class="text">:</div>
-      <div class="text" id="minute">00</div>
-      <div class="text">:</div>
-      <div class="text" id="second">00</div>
-      <div class="text">.</div>
-      <div class="text" id="small-second">00</div>
+    <div class="container" style=" text-align: center;">
+
+      <br><br><br>
+      <div class="col-12">
+        <div class="text" id="hour">00</div>
+        <div class="text">:</div>
+        <div class="text" id="minute">00</div>
+        <div class="text">:</div>
+        <div class="text" id="second">00</div>
+        <div class="text">.</div>
+        <div class="text" id="small-second">00</div>
+      </div>
+
+
+
+
+      <br><br>
+      <div class="col-12">
+        <div class="button-pad"><button id="start-id" class="button-style" onclick="start()">Start</button></div>
+        <div class="button-pad"><button id="stop-id" class="button-style " onclick="stop()">Stop</button></div>
+        <a href="javascript:history.go(0)"><button id="reset-id" class="button-style ">Reset</button></a>
+      </div>
     </div>
   
-
-
-
-  <br><br>
-  <div class="col-12">
-  <button id="start-id" class="button-style" onclick="start()">Start</button>
-  <button id="stop-id" class="button-style " onclick="stop()">Stop</button>
-  <a href="javascript:history.go(0)"><button class="button-style ">Reset</button></a>
-  </div>
-   </div>
-   </div>
 
 
 
@@ -104,66 +104,3 @@
 <script type="text/javascript" src="JavaScript.js">
 
 </script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
